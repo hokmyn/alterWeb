@@ -1,0 +1,13 @@
+.nav--item {
+  margin-right: 70px;
+  display: inline-block;
+}
+.nav--item:last-child {
+  margin-right: 0;
+}
+.nav--link {
+  font-family: Gilroy-Medium;
+  color: $list-item-color;
+  font-size: $list-font-size;
+  line-height: $list-line-height;
+}

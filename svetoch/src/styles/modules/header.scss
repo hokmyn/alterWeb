@@ -1,0 +1,32 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 206px;
+}
+.header--logo {
+  display: inline-block;
+  background: url("../assets/images/logo.svg");
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 98px;
+}
+.header--phone {
+  font-family: Gilroy-Medium;
+  white-space: pre;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #343434;
+  position: relative;
+}
+.header--phone::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../assets/images/phone.png");
+  position: absolute;
+  top: 0;
+  left: -40px;
+}

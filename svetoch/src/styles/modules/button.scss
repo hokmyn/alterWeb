@@ -1,0 +1,32 @@
+.btn {
+  display: inline-block;
+  font-family: Gilroy-SemiBold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3a3a3a;
+  background: linear-gradient(180deg, #ff7144 0%, #fdce26 100%);
+  box-shadow: 0px 4px 30px #fc9e4a;
+  border-radius: 70px;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.btn:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+.slider--link {
+  width: 346px;
+  position: relative;
+  margin-bottom: 99px;
+}
+.slider--link::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 76px;
+  height: 74px;
+  background: url("../assets/images/book.png");
+  bottom: -18px;
+  right: -23px;
+}

@@ -1,1 +1,9 @@
-
+.l-header {
+  background-color: $bg-color;
+  min-height: 206px;
+  width: 100%;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}

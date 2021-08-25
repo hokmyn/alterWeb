@@ -1,0 +1,40 @@
+.main-slider {
+  padding-bottom: 87px;
+  background-color: $bg-color;
+}
+.slide {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 453px;
+  padding-top: 43px;
+}
+.content--title {
+  font-family: Gilroy-Bold;
+  font-size: 55px;
+  line-height: 66px;
+  color: #26497e;
+  margin-bottom: 41px;
+}
+.content--text {
+  font-family: Gilroy-Regular;
+  font-size: 20px;
+  line-height: 23px;
+  color: #6c6c6c;
+  margin-bottom: 76px;
+}
+.slide-img {
+  background: url("../assets/images/main-bg1.png");
+  width: 676px;
+  height: 505px;
+  position: relative;
+}
+.slide-img img {
+  max-width: 650px;
+  position: absolute;
+  left: 39px;
+  top: -3px;
+}

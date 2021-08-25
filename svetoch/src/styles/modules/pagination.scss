@@ -1,0 +1,27 @@
+.pagination {
+  font-family: Gilroy-Regular;
+  font-size: 22px;
+  line-height: 27px;
+  color: #6c6c6c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 162px;
+}
+.pagination span {
+  margin-right: 20px;
+}
+.arr {
+  width: 20px;
+  height: 5px;
+  transition: all 0.3s;
+}
+.arr:hover {
+  cursor: pointer;
+}
+.arr-prev {
+  background: url("../assets/images/arr-prev.png");
+}
+.arr-next {
+  background: url("../assets/images/arr-next.png");
+}
